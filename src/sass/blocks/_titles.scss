@@ -1,0 +1,15 @@
+.title {
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 91%;
+    text-transform: uppercase;
+    color: #0D0D0D;
+    &_fz100 {
+        font-size: 100px;
+        line-height: 91px;
+        color: #FFFFFF;
+    }
+    
+}

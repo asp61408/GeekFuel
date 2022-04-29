@@ -1,0 +1,17 @@
+.limited {
+    padding-top: 100px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 420px 600px;
+        justify-content: space-between;
+    }
+    &__title {
+        width: 420px;
+        span {
+            color: $main-color;
+        }
+    }
+    &__list {
+        list-style-type: none;
+    }
+}
