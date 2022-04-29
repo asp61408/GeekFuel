@@ -1,0 +1,14 @@
+@import 'libs/fonts';
+@import 'base/variables';
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Graphik", "din-pro-condensed-3", sans-serif;
+}
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/titles';
