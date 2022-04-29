@@ -1,6 +1,7 @@
 .limited {
     padding-top: 100px;
     &__wrapper {
+        position: relative;
         display: grid;
         grid-template-columns: 420px 600px;
         justify-content: space-between;
@@ -13,5 +14,26 @@
     }
     &__list {
         list-style-type: none;
+        padding-left: 0;
+        font-family: 'Graphik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: #0D0D0D;
+    }
+    &__list_grid {
+        position: relative;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 24px 555px;
+        column-gap: 15px;
+        div {
+            svg {
+                position: absolute;
+                left: 0;
+                top: 5px;
+            }
+        }
     }
 }
