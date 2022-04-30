@@ -1,0 +1,29 @@
+.reveal {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 420px 700px;
+        column-gap: 100px;
+    }
+    &__descr {
+        padding-top: 40px;
+        font-family: 'Graphik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: #0D0D0D;
+    }
+    &__btn {
+        margin-top: 40px;
+    }
+    &__img {
+        padding-top: 55px;
+        object-fit: cover;
+        width: 100%;
+    }
+    &__bg {
+        background-color: #F1F4F9;
+    }
+}
