@@ -1,0 +1,22 @@
+.geek {
+    padding: 100px 0 100px;
+    background-color: #F8F8F8;
+    &__title {
+        text-align: center;
+    }
+    &__wrapper {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        column-gap: 30px;
+    }
+    &__item_text {
+        margin-top: 20px;
+        font-family: 'Graphik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: #0D0D0D;
+    }
+}
