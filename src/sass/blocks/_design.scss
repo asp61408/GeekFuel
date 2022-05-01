@@ -1,0 +1,193 @@
+.design {
+    margin-top: 100px;
+    padding-bottom: 50px;
+    &__title {
+        font-family: 'DIN Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 91%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #0D0D0D;
+    }
+    &__wrapper {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(3, 390px);
+        column-gap: 30px;
+    }
+    &__item {
+        position: relative;
+        &_subtitle {
+            margin-top: 30px;
+        }
+        &_price {
+            margin-top: 16px;
+            font-family: 'Graphik';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            color: #0D0D0D;
+        }
+        .radioinput {
+            position: relative;
+            margin-top: 20px;
+            transform: translateX(calc(50% - 45px));
+            input {
+                position: relative;
+                border-radius: 100%;
+               
+            }
+        }
+    }
+}
+#black {
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        // width: 10px;
+        // height: 10px;
+        top: 1.5px;
+        left: 1.4px;
+        border-radius: 100%;
+        border: 5px solid black;
+    }
+}
+#gray {
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        // width: 10px;
+        // height: 10px;
+        top: 1.5px;
+        left: 1.3px;
+        border-radius: 100%;
+        border: 5px solid gray;
+    }
+}
+#red {
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        // width: 10px;
+        // height: 10px;
+        top: 1.5px;
+        left: 1.3px;
+        border-radius: 100%;
+        border: 5px solid red;
+    }
+}
+#yellow {
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        // width: 10px;
+        // height: 10px;
+        top: 1.5px;
+        left: 1.3px;
+        border-radius: 100%;
+        border: 5px solid yellow;
+    }
+}
+#white {
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        // width: 10px;
+        // height: 10px;
+        top: 1.5px;
+        left: 1.3px;
+        border-radius: 100%;
+        border: 5px solid white;
+    }
+}
+
+// &_color-black {
+//     position: relative;
+//     &::before {
+//         content: '';
+//         display: block;
+//         position: absolute;
+//         top: 10px;
+//         left: 139px;
+//         width: 16px;
+//         border-radius: 100%;
+//         border: 8px solid black;
+//     }
+// }
+// &_color-grey {
+//     position: relative;
+//     &::before {
+//         content: '';
+//         display: block;
+//         position: absolute;
+//         top: 10px;
+//         left: 164px;
+//         width: 16px;
+//         border-radius: 100%;
+//         border: 8px solid grey;
+//     }
+// }
+// &_color-red {
+//     position: relative;
+//     &::before {
+//         content: '';
+//         display: block;
+//         position: absolute;
+//         top: 10px;
+//         left: 188px;
+//         width: 16px;
+//         border-radius: 100%;
+//         border: 8px solid red;
+//     }
+// }
+// &_color-yellow {
+//     position: relative;
+//     cursor: pointer;
+//     &::before {
+//         content: '';
+//         display: block;
+//         position: absolute;
+//         top: 10px;
+//         left: 212px;
+//         width: 16px;
+//         border-radius: 100%;
+//         border: 8px solid yellow;
+//         &:active {
+//             &::before {
+//                 border: 2px solid #0D0D0D;
+//             }
+//         }
+//     }
+// }
+// &_color-white {
+//     position: relative;
+//     &::before {
+//         content: '';
+//         display: block;
+//         position: absolute;
+//         top: 10px;
+//         left: 236px;
+//         // width: 6px;
+//         border-radius: 100%;
+//         border: 8px solid black;
+//     }
+//     // &::after {
+//     //     content: '';
+//     //     display: block;
+//     //     position: absolute;
+//     //     top: 10px;
+//     //     left: 236px;
+//     //     width: 6px;
+//     //     border: radius 100%;
+//     //     border: 10px solid black
+//     // }
+// }

@@ -104,9 +104,6 @@
             .plan__grey_list {
                 opacity: .5;
                 &::after {
-                    display: none;
-                }
-                &::after {
                     content: '';
                     display: block;
                     position: absolute;

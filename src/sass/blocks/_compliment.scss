@@ -1,0 +1,41 @@
+.compliment {
+    padding: 100px 0;
+    margin-top: 100px;
+    background-color: #F8F8F8;
+    min-height: 530px;
+    &__subtitle {
+        font-family: 'DIN Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 91%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: $main-color;
+    }
+    &__text {
+        width: 595px;
+        margin: 50px auto 0;
+        font-family: 'Graphik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 33px;
+        text-align: center;
+        color: #0D0D0D;
+        span {
+            margin: 30px auto 0;
+            font-family: 'DIN Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 91%;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #0D0D0D;
+            opacity: 0.4;
+        }
+    }
+}
