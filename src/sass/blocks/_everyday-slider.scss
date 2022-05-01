@@ -1,0 +1,30 @@
+.everyday-slider {
+    margin-top: 100px;
+    padding: 320px;
+    background: url("../img/bg/everyday_bg.png") 50%/cover no-repeat;
+    min-height: 940px;
+    &__wrapper {
+        padding: 0;
+        width: 390px;
+        height: 320px;
+    }
+    .goodfor {
+        color: #ffffff;
+    }
+    &__title {
+        color: #ffffff;
+        margin-top: 20px;
+    }
+    &__text {
+        margin-top: 40px;
+        font-family: 'Graphik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+    &__btn {
+        margin-top: 50px;
+    }
+}
