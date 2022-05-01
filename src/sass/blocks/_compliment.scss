@@ -3,20 +3,16 @@
     margin-top: 100px;
     background-color: #F8F8F8;
     min-height: 530px;
-    &__subtitle {
-        font-family: 'DIN Pro';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 91%;
-        text-align: center;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
+    &__wrapper {
+        width: 595px;
+        margin: 0 auto;
+
+    }
+    &__title {
         color: $main-color;
     }
     &__text {
-        width: 595px;
-        margin: 50px auto 0;
+        margin-top: 50px;
         font-family: 'Graphik';
         font-style: normal;
         font-weight: 500;
@@ -25,7 +21,7 @@
         text-align: center;
         color: #0D0D0D;
         span {
-            margin: 30px auto 0;
+            margin: 30px;
             font-family: 'DIN Pro';
             font-style: normal;
             font-weight: 400;

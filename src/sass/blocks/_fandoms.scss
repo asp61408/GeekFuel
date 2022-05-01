@@ -1,0 +1,11 @@
+.fandoms {
+    padding: 100px 0 116px;
+    &__wrapper {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(8, auto);
+        justify-content: space-between;
+        // align-content: center;
+        // column-gap: 70px;
+    }
+}
