@@ -1,13 +1,19 @@
 .compliment {
+    // position: relative;
     padding: 100px 0;
     margin-top: 100px;
     background-color: #F8F8F8;
     min-height: 530px;
     &__wrapper {
         width: 595px;
+        // height: 200px;
         margin: 0 auto;
 
     }
+    // &__text {
+    //     width: 595px;
+    //     height: 200px;
+    // }
     &__title {
         color: $main-color;
     }
@@ -35,3 +41,11 @@
         }
     }
 }
+// .slick-dots {
+//     // display: block;
+//     // display: flex;
+//     // justify-content: center;
+//     border-radius: 100%;
+//     border: 10px solid red;
+//     width: 10px;
+// }
