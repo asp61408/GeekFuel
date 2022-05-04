@@ -14,11 +14,11 @@
     &__wrapper {
         margin-top: 80px;
         display: grid;
-        grid-template-columns: repeat(3, 390px);
+        grid-template-columns: repeat(3, 380px);
         column-gap: 30px;
     }
     &__item {
-        position: relative;
+        // position: relative;
         &_subtitle {
             margin-top: 30px;
         }
@@ -33,7 +33,7 @@
             color: #0D0D0D;
         }
         .radioinput {
-            position: relative;
+            // position: relative;
             margin-top: 20px;
             transform: translateX(calc(50% - 45px));
             input {

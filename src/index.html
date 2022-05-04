@@ -57,35 +57,42 @@
 
 <body>
 
-    <header>
+    <header class="header">
         <nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <ul class="menu">
-                <li class="menu_item plus"><a href="#">TEE CLUB</a></li>
-                <li class="menu_item plus"><a href="#">SHOP</a></li>
-                <li class="menu_item"><a href="#">GHOSTBUSTERS</a></li>
-                <li class="menu_item gift">
+                <li class="menu__item plus"><a href="#">TEE CLUB</a></li>
+                <li class="menu__item plus"><a href="#">SHOP</a></li>
+                <li class="menu__item"><a href="#">GHOSTBUSTERS</a></li>
+                <li class="menu__item gift">
                     <img src="icons/🎁GIFT.svg" alt="gift">
                     <a href="#">GIFT</a>
                 </li>
             </ul>
 
             <div>
-                <img src="icons/logo.svg" alt="logo" class="logo">
+                <img src="icons/logo.svg" alt="logo" class="menu__logo">
             </div>
 
-            <ul class="menu">
-                <li class="menu_item"><a href="#">LOGIN</a></li>
-                <li class="menu_item">
+            <ul class="menu right">
+                <li class="menu__item">
+                    <a href="#">LOGIN</a>
+                </li>
+                <li class="menu__item menu__item_search">
                     <a href="#">
                         <img src="icons/header/Frame 1.svg" alt="Frame">
                     </a>
                 </li>
-                <li class="menu_item">
+                <li class="menu__item menu__item_heart">
                     <a href="#">
                         <img src="icons/header/heart (7).svg" alt="heart">
                     </a>
                 </li>
-                <li class="menu_item">
+                <li class="menu__item menu__item_bag">
                     <a href="#">
                         <img src="icons/header/shopping-bag (2).svg" alt="bag">
                     </a>
@@ -103,8 +110,10 @@
             find anywhere else!
         </div>
         <button class="promo__btn btn">shop all</button>
-        <img class="promo__img1" src="img/bg/GEEKFUEL/-1x-1 (4) 1.png" alt="bg">
-        <img src="img/bg/GEEKFUEL/-1x-1 (6) 1.png" alt="" class="promo__img2">
+        <div>
+            <img class="promo__img1" src="img/bg/GEEKFUEL/-1x-1 (4) 1.png" alt="bg">
+            <img src="img/bg/GEEKFUEL/-1x-1 (6) 1.png" alt="bg" class="promo__img2">
+        </div>
     </section>
 
     <section class="limited">
@@ -374,6 +383,7 @@
             </div>
         </div>
     </section>
+
     <section class="design">
         <div class="container">
             <h2 class="title title_fz60 design__title">
@@ -457,49 +467,35 @@
             <div class="compliment__wrapper">
                 <div class="compliment__text">
                     <div>
-                        “Nam accumsan est vel neque varius, a gravida diam dignissim. Maecenas eu dui porta, pellentesque
+                        “Nam accumsan est vel neque varius, a gravida diam dignissim. Maecenas eu dui porta,
+                        pellentesque
                         nisi id, bibendum erat. Proin condimentum lacinia tellus.”
                         <br>
                         <span>olivia j</span>
                     </div>
-                <!-- <div>
-                    “Nam accumsan est vel neque varius, a gravida diam dignissim. Maecenas eu dui porta, pellentesque
-                    nisi id, bibendum erat. Proin condimentum lacinia tellus.”
-                    <br>
-                    <span>olivia j</span>
-                   </div>
-                   <div>
-                    “Nam accumsan est vel neque varius, a gravida diam dignissim. Maecenas eu dui porta, pellentesque
-                    nisi id, bibendum erat. Proin condimentum lacinia tellus.”
-                    <br>
-                    <span>olivia j</span>
-                   </div> -->
-                <!-- </div> -->
-            </div>
-            <div class="compliment__wrapper">
-                <!-- <div class="compliment__subtitle">
-                    WE LOVE A GOOD COMPLIMENT
-                </div> -->
-                <div class="compliment__text">
-                    “Nam accumsan est vel neque varius, a gravida diam dignissim. Maecenas eu dui porta, pellentesque
-                    nisi id, bibendum erat. Proin condimentum lacinia tellus.”
-                    <br>
-                    <span>olivia js</span>
                 </div>
-            </div>
-            <div class="compliment__wrapper">
-                <!-- <div class="compliment__subtitle">
-                    WE LOVE A GOOD COMPLIMENT
-                </div> -->
-                <div class="compliment__text">
-                    “Nam accumsan est vel neque varius, a gravida diam dignissim. Maecenas eu dui porta, pellentesque
-                    nisi id, bibendum erat. Proin condimentum lacinia tellus.”
-                    <br>
-                    <span>olivia jss</span>
+                <div class="compliment__wrapper">
+                    <div class="compliment__text">
+                        “Nam accumsan est vel neque varius, a gravida diam dignissim. Maecenas eu dui porta,
+                        pellentesque
+                        nisi id, bibendum erat. Proin condimentum lacinia tellus.”
+                        <br>
+                        <span>olivia js</span>
+                    </div>
+                </div>
+                <div class="compliment__wrapper">
+                    <div class="compliment__text">
+                        “Nam accumsan est vel neque varius, a gravida diam dignissim. Maecenas eu dui porta,
+                        pellentesque
+                        nisi id, bibendum erat. Proin condimentum lacinia tellus.”
+                        <br>
+                        <span>olivia jss</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="fandoms">
         <div class="container">
             <div class="title title_fz18 fandoms__title">
@@ -522,6 +518,7 @@
         <div class="container">
             <div class="footer__wrapper">
                 <div class="footer__blocks">
+
                     <div class="footer__logo"></div>
 
                     <div class="footer__menu">
@@ -600,7 +597,6 @@
                             </a>
                         </div>
                     </div>
-                    <!-- <hr> -->
                 </div>
                 <div class="footer__policy">
                     <div>
@@ -615,6 +611,7 @@
             </div>
         </div>
     </footer>
+
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

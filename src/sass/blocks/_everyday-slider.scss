@@ -1,9 +1,10 @@
 .everyday-slider {
     margin-top: 100px;
-    padding: 320px;
+    padding-top: 320px;
     background: url("../img/bg/everyday_bg.png") 50%/cover no-repeat;
     min-height: 940px;
     &__wrapper {
+        margin-left: 120px;
         padding: 0;
         width: 390px;
         height: 320px;
